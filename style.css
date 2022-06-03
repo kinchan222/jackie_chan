@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+.button{
+    text-align: center;
+}
+
+.add.hide,
+.num.hide,
+.email.hide{
+    opacity: 0;
+}
+
