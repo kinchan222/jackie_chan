@@ -1,0 +1,32 @@
+ /* 住所・番号・Eメール ボタン  */
+h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+.button{
+    text-align: center;;
+}
+
+.add.hide,
+.num.hide,
+.email.hide{
+    opacity: 0;
+}
+
+/* TOPへ戻る ボタン */
+.goto_top_btn{
+    padding: 20px;
+    color: whitesmoke;
+    background-color: rgb(65, 129, 225);
+    cursor: default;
+    border-radius: 40px;
+}
+
+/* spanタグ */
+footer{
+    text-align: center;
+    padding: 25px;
+    color: rgb(20, 68, 63);
+    border: 1px solid;
+}
