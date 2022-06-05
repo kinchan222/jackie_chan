@@ -16,11 +16,24 @@ h1{
 
 
 /* slider */
-.slider{
-    border: solid 1px black;
+.slider_contener{
     height: 90vh;
-    width: 90vw;
+    width: 60%;
     margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.slider {
+    /* border: solid 1px black; */
+    min-width: 100%;
+    position: absolute;
+    
+}
+
+.slider img{
+    width: 100%;
+}
 
 /* メンバー紹介 */
 .toggle_menu dt{
