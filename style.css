@@ -14,12 +14,42 @@ h1{
     opacity: 0;
 }
 
+<<<<<<< HEAD
 /* slider */
 .slider{
     border: solid 1px black;
     height: 90vh;
     width: 90vw;
     margin: 0 auto;
+=======
+/* メンバー紹介 */
+.toggle_menu dt{
+    margin: 0 150px;
+    padding: 15px;
+    text-align: center;
+    font-size:35px;
+    font-weight: 700;
+    line-height: 60px;
+    color: rgb(49, 60, 61);
+    background-color: rgb(206, 174, 127);
+    cursor: default;
+}
+
+.toggle_menu > dd{
+    font-size: 18px;
+
+    padding: 10px 60px;
+    display: none;
+    margin: 0 150px;
+    line-height: 50px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    cursor: default;
+}
+
+.toggle_menu dd + dd{
+    border-top: none;
+>>>>>>> 7b363afe5d37bdc6fa0e72afc163bdd873ba3a36
 }
 
 /* TOPへ戻る ボタン */

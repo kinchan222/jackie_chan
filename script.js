@@ -12,6 +12,11 @@ $(function(){
 
 
 
+    //メンバー紹介 
+    $('#intro_btn').on('click',function(){
+        $('.toggle_menu dd').slideToggle();
+    })
+
     
 
     //TOPへ戻る　ボタン
