@@ -14,6 +14,11 @@ h1{
     opacity: 0;
 }
 
+/* メンバー紹介 */
+.toggle_menu dt{
+    margin: ;
+}
+
 /* TOPへ戻る ボタン */
 .goto_top_btn{
     padding: 20px;
