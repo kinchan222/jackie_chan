@@ -5,15 +5,45 @@ h1{
 }
 
 .button{
-    text-align: center;;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.add_btn{
+    font-size: 40px;
+    padding: 20px 25px;
+    margin: 10px;
+    color:whitesmoke;
+    background-color: gray;
+    border: 2px solid;
+    border-radius: 80px;
+}
+
+.num_btn,.email_btn{
+    font-size: 40px;
+    padding: 20px;
+    margin: 10px;
+    color:whitesmoke;
+    background-color: gray;
+    border: 2px solid;
+    border-radius: 80px;
+}
+
+.info_text{
+    transition: opacity .5s ease;
+    /* display: none; */
+    opacity: 1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .add.hide,
 .num.hide,
 .email.hide{
     opacity: 0;
+    /* display: block; */
 }
-
 
 /* slider */
 .slider_contener {
@@ -83,6 +113,9 @@ h1{
     border-top: none;
 }
 
+dd{
+    
+}
 
 /* Q＆A */
 
@@ -107,23 +140,31 @@ ul{
     cursor: default;
 }
 
-/* .question::after,.question::before{
+.question::after,.question::before{
     content: '';
     display: block;
     background-color: white;
     position: absolute;
 }
 
+.question::after{
+    width: 20px;
+    height: 2px;
+    right: 10px;
+    top: 50%;
+  }
+  
+
 .question::before{
     width: 2px;
     height: 20px;
     right: 19px;
-    top: 30%;
+    top: 36%;
   }
 
   .question.on::before{
     display: none;
-  } */
+  }
 
 .answer{
     display: none;

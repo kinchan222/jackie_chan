@@ -1,16 +1,17 @@
 $(function(){
     //住所・番号・Eメール ボタン
     $('.add_btn').on('click',function(){
-        $('.add').toggleClass('hide');
+        $('.info_text').addClass('hide');
+        $('.add').removeClass('hide');
     })
     $('.num_btn').on('click',function(){
-        $('.num').toggleClass('hide');
+        $('.info_text').addClass('hide');
+        $('.num').removeClass('hide');
     })
     $('.email_btn').on('click',function(){
-        $('.email').toggleClass('hide');
+        $('.info_text').addClass('hide');
+        $('.email').removeClass('hide');
     })
-
-
 
     //Q＆A
     $('.question').on('click',function(){
