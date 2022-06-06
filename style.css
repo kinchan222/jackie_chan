@@ -16,22 +16,41 @@ h1{
 
 
 /* slider */
-.slider_contener{
-    height: 90vh;
-    width: 60%;
+.slider_contener {
+    height: 100vh;
+    width: 70%;
     margin: 0 auto;
     display: flex;
     position: relative;
 }
 
-.slider {
-    /* border: solid 1px black; */
-    min-width: 100%;
+.arrow_right {
+    font-size: 40px;
+    color: white;
+    z-index: 1;
     position: absolute;
-    
+    top: 50%;
+    left: 90%;
 }
 
-.slider img{
+.arrow_left {
+    font-size: 40px;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+
+.slider {
+    border: solid 1px black;
+    min-width: 100%;
+    height: 300px;
+    position: absolute;
+}
+
+.slider img {
     width: 100%;
 }
 
