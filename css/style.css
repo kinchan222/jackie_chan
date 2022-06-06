@@ -1,10 +1,14 @@
- /* 住所・番号・Eメール ボタン  */
+.img1{
+    margin: 20px 50px;
+}
+
+/* 住所・番号・Eメール ボタン  */
 h1{
     text-align: center;
-    font-size: 80px;
+    font-size: 100px;
     font-weight: 800;
-    color: rgb(42, 156, 255);
-
+    color: rgb(53, 112, 163);
+    font-family: 'Racing Sans One', cursive;
 }
 
 .button{
