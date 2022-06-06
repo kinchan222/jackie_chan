@@ -1,4 +1,4 @@
- /* 住所・番号・Eメール ボタン  */
+/* 住所・番号・Eメール ボタン  */
 h1{
     text-align: center;
     font-size: 80px;
@@ -114,12 +114,7 @@ h1{
     border-top: none;
 }
 
-dd{
-    
-}
-
 /* Q＆A */
-
 ul{
     padding: 0 40px;
 }
