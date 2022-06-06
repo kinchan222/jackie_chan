@@ -27,7 +27,7 @@ $(function(){
 
     //TOPへ戻る　ボタン
     $('.goto_top_btn').on('click',function(){
-        $('html,body').animete({'scrollTop':0},500);
+        $('html,body').animate({'scrollTop':0},500);
     })
     
 })
