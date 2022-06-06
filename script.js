@@ -13,6 +13,13 @@ $(function(){
         $('.email').removeClass('hide');
     })
 
+    // chang_tab
+    $(".tab_container li").on("click",function(){
+        console.log();
+        // let target = $(this).attr("class")
+        // $(target).addClass("img");
+    })
+
     //Q＆A
     $('.question').on('click',function(){
         $(this).next().slideToggle();
