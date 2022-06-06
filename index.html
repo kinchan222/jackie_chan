@@ -19,11 +19,25 @@
 </head>
 <body>
 
-    <img class="img1" src="./img/logo 2.png" alt="">
+    
+    <header class="heder">
+        <divn class="left">
+            <img class="img1" src="./img/logo 2.png" alt="">
+        </divn>
+        
+
+        <ul class="right">
+            <li><a href="#slider_contener">PICTURE</a></li>
+            <li><a href="#slide_toggle">MEMBER</a></li>
+            <li><a href="#chang_tab">STUDY</a></li>
+            <li><a href="#accordion">Q&A</a></li>
+            <li><a href="#inquiry">CONTACT</a></li>
+        </ul>
+    </header>
 
     <h1>TechNext</h1>
 
-    <div class="button">
+    <div id="button">
         
         <!-- 住所・番号・Eメール ボタン -->
         <i class="add_btn fa-solid fa-location-dot"></i>
@@ -37,19 +51,18 @@
     </div>
 
 
-       <!-- slider -->
-       <div class="slider_contener">
+    <!-- slider -->
+    <div id="slider_contener">
+
         <div class="arrow_right"><i class="fa-solid fa-angles-right"></i></div>
         <div class="arrow_left"> <i class="fa-solid fa-angles-left"></i></div>
           <div class="slider"><img src="./img/IMG_4089.JPG" alt="授業風景1"> </div>
           <div class="slider"><img src="./img/IMG_4096.JPG" alt="授業風景2"> </div>
           <div class="slider"><img src="./img/IMG_4092.JPG" alt="授業風景3"> </div>
-       </div>  
 
+    </div>  
 
-
-
-    <div class="slide_toggle">
+    <div id="slide_toggle">
 
         <!-- メンバー紹介 -->
         <!-- <h2>School Member</h2> -->
@@ -67,27 +80,27 @@
         </dl>
     </div>
 
-        <!--　chang_tab  -->
-        <section class="chang_tab">
-            <ul class="tab_container">
+    <!--　chang_tab  -->
+    <section id="chang_tab">
+        <ul class="tab_container">
                 <li class="tab">HTML</li>
                 <li class="tab">CSS</li>
                 <li class="tab">javascript</li>
                 <li class="tab">jquery</li>
 
-            </ul>
-            <div class="content">
+        </ul>
+        <div class="content">
                 <div class="img"><img src="./img/html.png" alt="HTML"></div>
                 <div class="img"><img src="./img/css.png" alt="CSS"></div>
                 <div class="img"><img src="./img/javascript.png" alt="javascript"></div>
                 <div class="img"><img src="./img/jquery.png" alt="jquery"></div>
 
-            </div>
-        </section>
+        </div>
+    </section>
 
 
             <!-- Question　  -->
-    <div class="accordion">
+    <div id="accordion">
 
         <h2>TechNext Q&A</h2>
         <ul>
@@ -110,7 +123,7 @@
     </div>
 
      <!-- 入会希望 -->
-    <div class="inquiry">
+    <div id="inquiry">
         <H2>入会希望</H2>
  
             <input type="text" name="name" placeholder="name">
