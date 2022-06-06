@@ -11,7 +11,7 @@ h1{
 
 .add_btn{
     font-size: 40px;
-    padding: 15px 20px;
+    padding: 20px 25px;
     margin: 10px;
     color:whitesmoke;
     background-color: gray;
@@ -186,5 +186,5 @@ footer{
     text-align: center;
     padding: 25px;
     color: rgb(20, 68, 63);
-    border: 1px solid;
+    /* border: 1px solid; */
 }
