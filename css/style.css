@@ -83,11 +83,58 @@ h1{
     border-top: none;
 }
 
+
+/* Q＆A */
+
+ul{
+    padding: 0 40px;
+}
+
+.question,.answer{
+    font-size: 20px;
+    font-weight: 40px;
+    text-align: center;
+    padding: 20px ;
+    margin: 0 150px;
+    color: aliceblue;
+    background-color: rgb(48, 134, 90);
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.question{
+    position: relative;
+    cursor: default;
+}
+
+/* .question::after,.question::before{
+    content: '';
+    display: block;
+    background-color: white;
+    position: absolute;
+}
+
+.question::before{
+    width: 2px;
+    height: 20px;
+    right: 19px;
+    top: 30%;
+  }
+
+  .question.on::before{
+    display: none;
+  } */
+
+.answer{
+    display: none;
+    background-color: rgb(183, 181, 87);
+}
+
 /* TOPへ戻る ボタン */
 .goto_top_btn{
     padding: 20px;
     color: whitesmoke;
-    background-color: rgb(65, 129, 225);
+    background-color: rgb(65, 225, 206);
     cursor: default;
     border-radius: 40px;
 }

@@ -12,6 +12,12 @@ $(function(){
 
 
 
+    //Q＆A
+    $('.question').on('click',function(){
+        $(this).next().slideToggle();
+        $(this).toggleClass('on');
+    })
+
     //メンバー紹介 
     $('#intro_btn').on('click',function(){
         $('.toggle_menu dd').slideToggle();
