@@ -22,6 +22,7 @@ header{
 
 /* 住所・番号・Eメール ボタン  */
 h1{
+    margin-top: 50px;
     text-align: center;
     font-size: 150px;
     font-weight: 800;
@@ -162,6 +163,12 @@ h3{
     cursor: default;
 }
 
+.coment{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
 .tab_container{
     display: flex;
     margin: 10px 150px 0px;
@@ -177,27 +184,52 @@ h3{
     text-align: center;
     margin: 0 5px;
     color: rgb(49, 60, 61);
-    background-color: rgb(206, 174, 127);
+    background-color: rgb(0, 165, 210);
     border: solid 1px black;
+    cursor: default;
 }
 
 .tab-list li:hover{
     opacity: 0.7;
-    cursor: pointer;
+    cursor: default;
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.box::after{
+    
+    position: absolute;
+    font-size: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .container{
     width: 100vw;
-    height: 90vh;
+    height: 60vh;
     position: relative;
 }
 
 .container img{
     position: absolute;
-    left: 35%;
+    left: 50%;
+    transform: translateX(-50%);
     width: 500px;
     height: 500px;
 }
+
+.current{
+    z-index: 1;
+    opacity: 1;
+}
+  
 
 
 /* Q＆A */
@@ -307,6 +339,10 @@ textarea{
 }
 
 /* TOPへ戻る ボタン */
+.goto_top{
+    text-align: right;
+    margin: 150px 50px 60px;
+}
 .goto_top_btn{
     padding: 20px;
     color: whitesmoke;
