@@ -13,6 +13,12 @@ $(function(){
         $('.email').removeClass('hide');
     })
 
+   // slider 　
+   $(".arrow_right").on("click",function(){
+       $(".slider").animate({"scrollX":0.5}, 5000);
+       })
+   })
+
     // chang_tab
     $(".tab_container li").on("click",function(){
         let target = $(this).attr("id");
@@ -39,4 +45,4 @@ $(function(){
         $('html,body').animate({'scrollTop':0},500);
     })
     
-})
+
