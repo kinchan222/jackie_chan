@@ -248,7 +248,7 @@ h2{
     text-align: center;
 }
 
-.inquiry input{
+#inquiry input{
     border: solid 1px black;
     width: 50vw;
     height: 5vh;
