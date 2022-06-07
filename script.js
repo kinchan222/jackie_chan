@@ -14,12 +14,10 @@ $(function(){
     })
 
     // chang_tab
-    $(".tab_container li").click(function(){
-        let target = $(".tab_container li").index("content li")
-        console.log(target);
-        //  $(".content img").removeClass("push");
-        //  $(this).addClass("push");
-        //  $('.content ul').removeClass('photo li').eq(target).addClass('photo li');
+    $(".tab_container li").on("click",function(){
+        let target = $(this).attr("id");
+        $(".box").removeClass("current");
+        $(target).addClass("current");
 
     })
 

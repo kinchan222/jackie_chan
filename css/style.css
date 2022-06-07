@@ -162,12 +162,13 @@ h1{
     border: solid 1px black;
 }
 
-.content{
-    height: 550px;
+.container{
+    width: 100vw;
+    height: 90vh;
     position: relative;
 }
 
-.content img{
+.container img{
     position: absolute;
     left: 35%;
     width: 500px;
