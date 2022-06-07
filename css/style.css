@@ -79,6 +79,7 @@ h1{
     position: relative;
     width: 800px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .arrow_right {
@@ -104,7 +105,7 @@ h1{
     display: flex;
     width: 100%;
     aspect-ratio: 8/6;
-    overflow: hidden;
+
 }
 
  .slider_warp img {
