@@ -14,23 +14,29 @@ $(function(){
     })
 
    // slider 　
-   let index = 0;
-   let slideMax = $('.slider').length
-   $('.arrow_right').on('click',function () {
-    if (index !== slideMax-1) {
-      index++;
-      num = index * -1 * 100;
-      $('.slider').css({'transform':`translateX(${num}%)`});
-    }
-  })
+   $(".arrow_right").on("clicl",function(){
+       $(".slider_warp").next().slider();
 
-  $('.arrow_left').on('click',function () {
-    if (index !== 0) {
-      index--;
-      num = index * -1 * 100;
-      $('.slider').css({'transform':`translateX(${num}%)`})
-    }
-  })
+   })
+
+
+//    let index = 0;
+//    let slideMax = $('.slider').length
+//    $('.arrow_right').on('click',function () {
+//     if (index !== slideMax-1) {
+//       index++;
+//       num = index * -1 * 100;
+//       $('.slider').css({'transform':`translateX(${num}%)`});
+//     }
+//   })
+
+//   $('.arrow_left').on('click',function () {
+//     if (index !== 0) {
+//       index--;
+//       num = index * -1 * 100;
+//       $('.slider').css({'transform':`translateX(${num}%)`})
+//     }
+//   })
 
     // chang_tab
     $(".tab_container li").on("click",function(){
