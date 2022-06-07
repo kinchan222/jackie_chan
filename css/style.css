@@ -181,6 +181,11 @@ h3{
     border: solid 1px black;
 }
 
+.tab-list li:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
 .container{
     width: 100vw;
     height: 90vh;
@@ -196,7 +201,7 @@ h3{
 
 
 /* Q＆A */
-ul{
+.qa_text{
     padding: 10px 40px 60px;
 }
 
