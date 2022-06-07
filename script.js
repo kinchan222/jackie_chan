@@ -14,7 +14,11 @@ $(function(){
     })
 
    // slider 　
-   $(".slider_warp").slider();
+   $(".arrow_right").on("clicl",function(){
+       $(".slider_warp").next().slider();
+
+   })
+
 
 //    let index = 0;
 //    let slideMax = $('.slider').length
