@@ -129,7 +129,7 @@ h1{
     line-height: 60px;
 }
 
-.tab{
+.tab_container li{
     width: 200px;
     text-align: center;
     margin: 0 5px;

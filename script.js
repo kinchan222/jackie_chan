@@ -14,10 +14,13 @@ $(function(){
     })
 
     // chang_tab
-    $(".tab_container li").on("click",function(){
-        console.log();
-        // let target = $(this).attr("class")
-        // $(target).addClass("img");
+    $(".tab_container li").click(function(){
+        let target = $(".tab_container li").index("content li")
+        console.log(target);
+        //  $(".content img").removeClass("push");
+        //  $(this).addClass("push");
+        //  $('.content ul').removeClass('photo li').eq(target).addClass('photo li');
+
     })
 
     //Q＆A
