@@ -14,10 +14,9 @@ header{
     display: flex;
     font-size: 20px;
     font-weight: 700;
-    margin: 50px 50px;;
+    margin: 50px 50px;
 }
 .right li{
-
     margin-right: 30px;
 }
 
@@ -64,6 +63,8 @@ h1{
     left: 50%;
     transform: translateX(-50%);
     margin: 20px 0 ;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .add.hide,
@@ -118,26 +119,29 @@ h1{
 /* メンバー紹介 */
 .toggle_menu dt{
     margin: 0 150px;
-    padding: 15px;
+    padding: 10px 15px;
     text-align: center;
-    font-size:35px;
+    font-size:40px;
     font-weight: 700;
     line-height: 60px;
-    color: rgb(49, 60, 61);
+    color: white;
     background-color: rgb(206, 174, 127);
     cursor: default;
+    /* border-radius: 20px; */
 }
 
 .toggle_menu > dd{
-    font-size: 18px;
-
+    font-size: 19px;
+    font-weight: 650;
     padding: 10px 60px;
     display: none;
-    margin: 0 150px;
+    margin: 0 150px ;
     line-height: 50px;
     box-sizing: border-box;
     border: 1px solid gray;
     cursor: default;
+    border-radius: 10px;
+    
 }
 
 .toggle_menu dd + dd{
@@ -146,6 +150,18 @@ h1{
 
 
 /* chang_tab */
+h3{
+    margin: 100px 150px 20px;
+    padding: 10px 15px;
+    text-align: center;
+    font-size:35px;
+    font-weight: 700;
+    line-height: 60px;
+    color: white;
+    background-color: rgb(206, 174, 127);
+    cursor: default;
+}
+
 .tab_container{
     display: flex;
     margin: 10px 150px 0px;
@@ -235,12 +251,12 @@ ul{
 /* 入会希望 */
 h2{    
     margin: 20px 150px;
-    padding: 15px;
+    padding: 10px 15px;
     text-align: center;
     font-size:35px;
     font-weight: 700;
     line-height: 60px;
-    color: rgb(49, 60, 61);
+    color: white;
     background-color: rgb(206, 174, 127);
     cursor: default;
 
@@ -296,6 +312,8 @@ textarea{
 
 /* spanタグ */
 footer{
+    font-size: 15px;
+    font-weight: 700;
     text-align: center;
     padding: 25px;
     color: rgb(20, 68, 63);
