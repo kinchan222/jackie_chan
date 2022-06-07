@@ -84,28 +84,28 @@ h1{
 
 .arrow_right {
     font-size: 40px;
-    color: white;
+    color: blue;
     z-index: 1;
     position: absolute;
-    top: 50%;
-    left: 90%;
+    top: 80%;
+    left: 80%;
 }
 
 .arrow_left {
     font-size: 40px;
-    color: white;
+    color: blue;
     z-index: 1;
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 5%;
 }
 
 
 .slider {
     border: solid 1px black;
-    min-width: 100%;
+    min-width: 80%;
     height: 300px;
-    position: absolute;
+    transition: all 1s ease;
 }
 
 .slider img {
